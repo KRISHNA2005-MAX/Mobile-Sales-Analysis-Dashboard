@@ -1,41 +1,65 @@
-# Mobile-Sales-Analysis-Dashboard
+# 📱 Mobile Sales Analysis Dashboard (Power BI)
+
+## Project Overview
+An interactive **Power BI dashboard** that analyzes mobile phone sales across Indian cities, brands, models, payment methods and months. It turns raw transaction data into clear KPIs and visuals, so a business user can see sales performance, customer behavior and buying trends in one view and make better sales and inventory decisions.
+
+## Purpose
+- Track overall sales performance through key KPIs
+- Identify top-performing brands, models and cities
+- Understand seasonal trends in quantity sold
+- Analyze customer payment preferences and satisfaction
+- Find the best and worst sales days of the week
+
+## Tech Stack
+
+  **Power BI Desktop** | Dashboard design and visualization 
+  **Power Query** | Data cleaning and transformation (ETL) 
+  **DAX** | KPI measures and calculations 
+  **MS Excel** | Raw data storage and preliminary cleaning 
+
+## Data Source
+- Mobile sales transaction dataset in Excel (.xlsx) format
+- Fields include: Brand, Mobile Model, City, Month, Day, Payment Method, Quantity, Total Sales and Customer Rating
+- Cleaned and transformed in Power Query before modeling
 
 
-## 📌 Project Overview & Purpose
-This project is an end-to-end interactive Business Intelligence dashboard designed to analyze retail mobile phone sales, transaction patterns, and customer feedback. The primary goal is to help retail managers and business stakeholders track revenue growth, identify top-performing smartphone brands and models, monitor regional sales distribution across India, and evaluate customer satisfaction to drive data-backed operational decisions.
+
+## Dashboard Features & Highlights
+
+### 🔹 KPI Cards
+- **Total Sales:** 769M
+- **Total Quantity Sold:** 19K units
+- **Transactions:** ~4K (3,835)
+- **Average Sales:** 40K per unit
+
+### 🔹 Visuals and Insights
+- **Total Quantity by Month:** line chart showing monthly demand. Sales peak in **March and July** (about 1,700 units) and dip in **February** (1,451).
+- **Total Sales by City:** map view of revenue across major cities such as Delhi, Mumbai, Hyderabad, Lucknow, Kolkata, Chennai and Bangalore.
+- **Brand Performance Table:** Total Sales and Transactions for Apple, OnePlus, Samsung, Vivo and Xiaomi. **Apple leads (about 161.6M)**, followed closely by Samsung (about 160M).
+- **Total Sales by Mobile Model:** iPhone SE (60M), OnePlus Nord (58M) and Galaxy Note 20 (56M).
+- **Transactions by Payment Method:** a nearly even split across UPI (26.25%), Debit Card (25.89%), Cash (25.03%) and Credit Card (22.83%).
+- **Customer Ratings Funnel:** 311 customers gave 5 stars, which shows strong overall satisfaction.
+- **Total Sales by Day Name:** sales are highest on **Monday, Friday and Tuesday** (about 26M) and lowest on Thursday (23.2M).
+
+### 🔹 Interactivity
+- **Month slicer** (January to December) for time-based filtering
+- **Mobile Model, Brand and Payment Method slicers** for dynamic drill-down
+- All visuals cross-filter each other for quick exploration
+
+## Key Takeaways
+- Sales are spread fairly evenly across the five brands, with Apple and Samsung slightly ahead.
+- Demand is strongest in March and July.
+- Customers use all payment modes about equally, so no single channel dominates.
+- Most customers rate their purchase 5 stars.
+
+## Skills Demonstrated
+Data Cleaning · Data Modeling · DAX · KPI Design · Interactive Dashboarding · Data Storytelling
+
+## Dashboard Preview
 
 
-
-## 🛠 Tech Stack
-* Business Intelligence / Visualization:** Microsoft Power BI
-* Data Processing & Modeling:  Power Query, DAX
-* Data Source Format: EXCEL
+## Author
+**Krishna Singh**
+B.Tech CSE (AI), University of Lucknow
 
 
-## 📂 Data Source
-* Dataset: Retail Mobile Sales & Transaction Dataset
-* Key Dimensions & Measures: Order Date (Months/Days), Geographic Location (Cities in India), Mobile Brands (Apple, Samsung, OnePlus, Vivo, Xiaomi), Device Models, Payment Channels (UPI, Debit Card, Credit Card, Cash), Customer Ratings (1–5 scale), Total Revenue, and Units Sold.
-
-
-## 🚀 Key Features & Highlights
-
-* **High-Level KPI Scorecards:**
-  * **Total Sales:** ₹769M overall generated revenue.
-  * **Volume & Orders:** 19K units sold across 3.8K+ total transactions.
-  * **Average Order Value:** ~₹40K per transaction.
-
-* **Trend & Seasonality Tracking:**
-  * **Monthly Volume Analysis:** Line chart monitoring monthly demand spikes (peaking in March and July at ~1,700 units).
-  * **Day-of-Week Sales:** Area trend chart highlighting peak buying days (Monday–Tuesday) versus mid-week drops.
-
-* **Product & Brand Performance:**
-  * **Brand Matrix:** Detailed tabular view tracking sales value and transaction volume across key brands (Apple, OnePlus, Samsung, Vivo, Xiaomi).
-  * **Top Models:** Column chart comparing top-grossing handsets (iPhone SE, OnePlus Nord, Galaxy Note 20).
-
-* **Geospatial & Channel Insights:**
-  * **Geographic Distribution:** Interactive map tracking sales concentration across major Indian metropolitan areas and tier-2 hubs (Delhi, Lucknow, Mumbai, Hyderabad, Bangalore, Chennai, etc.).
-  * **Payment Method Breakdown:** Donut/Pie chart showing an evenly balanced share across UPI (26.25%), Debit Card (25.89%), Cash (25.03%), and Credit Card (22.83%).
-
-* **Customer Sentiment & Filtering:**
-  * **Funnel/Pyramid Rating Distribution:** Visual breakdown of customer feedback from 1 to 5 stars, showing the highest concentration at 5-star satisfaction.
-  * **Interactive Multi-Level Slicers:** Full dashboard cross-filtering by month, mobile brand, handset model, and payment mode.
