@@ -56,7 +56,7 @@ An interactive **Power BI dashboard** that analyzes mobile phone sales across In
 Data Cleaning · Data Modeling · DAX · KPI Design · Interactive Dashboarding · Data Storytelling
 
 ## Dashboard Preview
-
+https://github.com/KRISHNA2005-MAX/Mobile-Sales-Analysis-Dashboard/blob/main/Mobile%20Sales%20Dashboard.png
 
 ## Author
 **Krishna Singh**
